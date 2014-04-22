@@ -98,7 +98,7 @@ smtp                     IN CNAME   www
 "
 "landesgeschaeftsstelle.de";"fertig";"15.10.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2013051700   ; serial
+    2014041000   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -109,16 +109,31 @@ smtp                     IN CNAME   www
 @                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
+berlin                   IN A       178.63.235.153
 blog                     IN A       178.63.3.169
+blog-piratenfreifunk       IN A       178.63.235.153
 blogtest                 IN A       178.63.235.148
 cemetry                  IN A       178.63.3.169
+dascamp                  IN A       178.63.235.153
+hauptstadtpiraten        IN A       178.63.235.153
 kalender                 IN A       178.63.235.152
 ldap                     IN A       178.63.235.154
 localhost                IN A       127.0.0.1
 mail                     IN A       178.63.3.169
 mirror                   IN A       178.63.235.156
 mitmachdb                IN A       178.63.235.145
-presse                   IN A       178.63.235.146
+multisite                IN A       178.63.235.153
+piraten-friedrichshain-kreuzberg       IN A       178.63.235.153
+piraten.in-mandate       IN A       178.63.235.153
+piraten-lichtenberg       IN A       178.63.235.153
+piraten-marzahn-hellersdorf       IN A       178.63.235.153
+piraten-mitte            IN A       178.63.235.153
+piraten-neukoelln        IN A       178.63.235.153
+piraten-pankow           IN A       178.63.235.153
+piraten-spandau          IN A       178.63.235.153
+piraten-steglitz-zehlendorf       IN A       178.63.235.153
+piraten-tempelhof-schoeneberg       IN A       178.63.235.153
+piraten-treptow-koepenick       IN A       178.63.235.153
 reisebuero               IN A       178.63.235.153
 rsync                    IN A       178.63.3.169
 staging                  IN A       178.63.235.169
