@@ -7,9 +7,9 @@
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -31,9 +31,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      ns1.first-ns.de.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      robotns3.second-ns.com.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      ns1.first-ns.de.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -54,9 +54,9 @@ wiki                     IN CNAME   tardis.dascamp.net.
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 barf                     IN A       178.63.235.151
@@ -80,9 +80,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       95.143.172.52
 localhost                IN A       127.0.0.1
@@ -104,9 +104,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 blog                     IN A       178.63.3.169
@@ -139,9 +139,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     3600 )       ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       88.198.49.151
 *                        IN A       88.198.49.151
@@ -154,19 +154,20 @@ www                      IN A       88.198.49.151
 "
 "piratech.de";"fertig";"19.10.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2014011701   ; serial
+    2014030100   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.235.145
 *                        IN A       178.63.235.145
 ldap                     IN A       178.63.235.147
+lmvb                     IN A       217.6.72.237
 localhost                IN A       127.0.0.1
 mail                     IN A       178.63.235.145
 nodejs                   IN A       178.63.3.170
@@ -191,26 +192,30 @@ p9a-schavan              IN A       192.168.22.40
 p9a-sip-lgs-001          IN A       192.168.22.60
 p9a-sip-lgs-002          IN A       192.168.22.61
 p9a-starmoney            IN A       192.168.23.31
+p9a-vltool-ctl           IN A       192.168.105.9
+p9a-vltool-pub           IN A       192.168.105.5
+p9a-vltool-red           IN A       192.168.105.7
 static-78-47-156-13       IN A       78.47.156.13
+vltool                   IN A       178.63.235.151
 vpn                      IN A       178.63.235.159
 @                        IN MX 10   mail
 "
 "piraten-charlottenburg-wilmersdorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2011011300   ; serial
+    2014032100   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       85.214.135.219
+@                        IN A       85.214.240.232
 localhost                IN A       127.0.0.1
-mail                     IN A       85.214.135.219
-www                      IN A       85.214.135.219
+mail                     IN A       85.214.240.232
+www                      IN A       85.214.240.232
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
@@ -227,9 +232,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -251,9 +256,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -275,9 +280,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -299,9 +304,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -323,9 +328,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -347,9 +352,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -371,9 +376,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -395,9 +400,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -419,9 +424,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -443,9 +448,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -467,9 +472,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -491,9 +496,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -509,20 +514,20 @@ smtp                     IN CNAME   www
 "
 "piratenpartei-charlottenburg-wilmersdorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2011011300   ; serial
+    2014032100   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       85.214.135.219
+@                        IN A       85.214.240.232
 localhost                IN A       127.0.0.1
-mail                     IN A       85.214.135.219
-www                      IN A       85.214.135.219
+mail                     IN A       85.214.240.232
+www                      IN A       85.214.240.232
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
@@ -539,9 +544,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -563,9 +568,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -587,9 +592,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -611,9 +616,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -635,9 +640,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -659,9 +664,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -683,9 +688,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -707,9 +712,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -731,9 +736,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -755,9 +760,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
@@ -779,9 +784,9 @@ smtp                     IN CNAME   www
     604800       ; expire
     86400 )      ; minimum
  
-@                        IN NS      robotns3.second-ns.com.
-@                        IN NS      robotns2.second-ns.de.
 @                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
  
 @                        IN A       178.63.3.169
 localhost                IN A       127.0.0.1
