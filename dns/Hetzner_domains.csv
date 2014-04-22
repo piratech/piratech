@@ -123,8 +123,8 @@ mail                     IN A       178.63.3.169
 mirror                   IN A       178.63.235.156
 mitmachdb                IN A       178.63.235.145
 multisite                IN A       178.63.235.153 
-pirapay    IN A       178.63.235.153
-piraten-charlottenburg-wilmersdorf   IN A       178.63.235.153
+pirapay      IN A       178.63.235.153
+piraten-charlottenburg-wilmersdorf      IN A       178.63.235.153
 piraten-friedrichshain-kreuzberg       IN A       178.63.235.153
 piraten.in-mandate       IN A       178.63.235.153
 piraten-lichtenberg       IN A       178.63.235.153
