@@ -1,5 +1,5 @@
-"Domain"";""Status"";""abgerechnet bis"";""Primary nameserver"";""Zonefile"
-"bundesgeschaeftsstelle.de"";""fertig"";""15.10.14"";"";""$TTL 86400
+"Domain";"Status";"abgerechnet bis";"Primary nameserver";"Zonefile"
+"bundesgeschaeftsstelle.de";"fertig";"15.10.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010101500   ; serial
     14400        ; refresh
@@ -23,7 +23,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"dascamp.net"";""fertig"";""20.04.14"";"";""$TTL 86400
+"dascamp.net";"fertig";"20.04.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2014013001   ; serial
     14400        ; refresh
@@ -46,7 +46,7 @@ wiki                     IN CNAME   tardis.dascamp.net.
 @                        IN MX 20   tardis.dascamp.net.
 @                        IN MX 100  alx-agh-1.dd19.de.
 "
-"hafennutten.de"";""fertig"";""30.05.14"";"";""$TTL 86400
+"hafennutten.de";"fertig";"30.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2011041400   ; serial
     14400        ; refresh
@@ -72,7 +72,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"keinzelfall.de"";""fertig"";""18.05.14"";"";""$TTL 86400
+"keinzelfall.de";"fertig";"18.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2012052301   ; serial
     14400        ; refresh
@@ -96,9 +96,9 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"landesgeschaeftsstelle.de"";""fertig"";""15.10.14"";"";""$TTL 86400
+"landesgeschaeftsstelle.de";"fertig";"15.10.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2014041000   ; serial
+    2014050200   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -122,9 +122,9 @@ localhost                IN A       127.0.0.1
 mail                     IN A       178.63.3.169
 mirror                   IN A       178.63.235.156
 mitmachdb                IN A       178.63.235.145
-multisite                IN A       178.63.235.153 
-pirapay      IN A       178.63.235.153
-piraten-charlottenburg-wilmersdorf      IN A       178.63.235.153
+multisite                IN A       178.63.235.153
+pirapay                  IN A       178.63.235.153
+piraten-charlottenburg-wilmersdorf       IN A       178.63.235.153
 piraten-friedrichshain-kreuzberg       IN A       178.63.235.153
 piraten.in-mandate       IN A       178.63.235.153
 piraten-lichtenberg       IN A       178.63.235.153
@@ -132,8 +132,7 @@ piraten-marzahn-hellersdorf       IN A       178.63.235.153
 piraten-mitte            IN A       178.63.235.153
 piraten-neukoelln        IN A       178.63.235.153
 piraten-pankow           IN A       178.63.235.153
-piraten-reinickendorf	IN A       178.63.235.153
-piraten-steglitz-zehlendorf	IN A       178.63.235.153
+piraten-reinickendorf       IN A       178.63.235.153
 piraten-spandau          IN A       178.63.235.153
 piraten-steglitz-zehlendorf       IN A       178.63.235.153
 piraten-tempelhof-schoeneberg       IN A       178.63.235.153
@@ -150,7 +149,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"lqpp.de"";""fertig"";""06.01.15"";"";""$TTL 3600
+"lqpp.de";"fertig";"06.01.15";"";"$TTL 3600
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2013030901   ; serial
     14400        ; refresh
@@ -171,7 +170,7 @@ test                     IN A       88.198.11.9
 www                      IN A       88.198.49.151
 @                        IN MX 10   support
 "
-"piratech.de"";""fertig"";""19.10.14"";"";""$TTL 86400
+"piratech.de";"fertig";"19.10.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2014030100   ; serial
     14400        ; refresh
@@ -219,7 +218,7 @@ vltool                   IN A       178.63.235.151
 vpn                      IN A       178.63.235.159
 @                        IN MX 10   mail
 "
-"piraten-charlottenburg-wilmersdorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-charlottenburg-wilmersdorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2014032100   ; serial
     14400        ; refresh
@@ -243,7 +242,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-friedrichshain-kreuzberg.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-friedrichshain-kreuzberg.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -267,7 +266,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-lichtenberg.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-lichtenberg.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -291,7 +290,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-marzahn-hellersdorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-marzahn-hellersdorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -315,7 +314,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-mitte.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-mitte.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -339,7 +338,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-neukoelln.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-neukoelln.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -363,7 +362,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-pankow.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-pankow.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010081300   ; serial
     14400        ; refresh
@@ -387,7 +386,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-reinickendorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-reinickendorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -411,7 +410,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-spandau.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-spandau.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -435,7 +434,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-steglitz-zehlendorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-steglitz-zehlendorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -459,7 +458,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-tempelhof-schoeneberg.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-tempelhof-schoeneberg.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -483,7 +482,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piraten-treptow-koepenick.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piraten-treptow-koepenick.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -507,7 +506,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenmitte.de"";""fertig"";""28.08.14"";"";""$TTL 86400
+"piratenmitte.de";"fertig";"28.08.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2011082800   ; serial
     14400        ; refresh
@@ -531,7 +530,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-charlottenburg-wilmersdorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-charlottenburg-wilmersdorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2014032100   ; serial
     14400        ; refresh
@@ -555,7 +554,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-friedrichshain-kreuzberg.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-friedrichshain-kreuzberg.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -579,7 +578,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-lichtenberg.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-lichtenberg.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -603,7 +602,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-marzahn-hellersdorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-marzahn-hellersdorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -627,7 +626,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-mitte.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-mitte.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -651,7 +650,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-neukoelln.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-neukoelln.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -675,7 +674,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-pankow.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-pankow.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -699,7 +698,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-reinickendorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-reinickendorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -723,7 +722,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-spandau.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-spandau.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -747,7 +746,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-steglitz-zehlendorf.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-steglitz-zehlendorf.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -771,7 +770,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-tempelhof-schoeneberg.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-tempelhof-schoeneberg.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
@@ -795,7 +794,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenpartei-treptow-koepenick.de"";""fertig"";""29.05.14"";"";""$TTL 86400
+"piratenpartei-treptow-koepenick.de";"fertig";"29.05.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010052900   ; serial
     14400        ; refresh
