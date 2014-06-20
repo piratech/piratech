@@ -1,0 +1,820 @@
+"Domain";"Status";"abgerechnet bis";"Primary nameserver";"Zonefile"
+"bundesgeschaeftsstelle.de";"fertig";"15.10.14";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010101500   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"dascamp.net";"fertig";"20.04.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2014013001   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      robotns3.second-ns.com.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      ns1.first-ns.de.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+tardis                   IN A       217.197.86.163
+2014                     IN CNAME   tardis.dascamp.net.
+barf                     IN CNAME   pentabarf.jupis.de.
+contact                  IN CNAME   tardis.dascamp.net.
+fahrplan                 IN CNAME   barf.hafennutten.de.
+wiki                     IN CNAME   tardis.dascamp.net.
+@                        IN MX 20   tardis.dascamp.net.
+@                        IN MX 100  alx-agh-1.dd19.de.
+"
+"hafennutten.de";"fertig";"30.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2014053000   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns3.afraid.org.
+@                        IN NS      ns2.afraid.org.
+@                        IN NS      ns1.afraid.org.
+ 
+@                        IN A       178.63.3.169
+barf                     IN A       178.63.235.151
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+stream                   IN A       178.63.235.150
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"keinzelfall.de";"fertig";"18.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2012052301   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       95.143.172.52
+localhost                IN A       127.0.0.1
+mail                     IN A       95.143.172.52
+www                      IN A       95.143.172.52
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"landesgeschaeftsstelle.de";"fertig";"15.10.14";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2014050200   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+berlin                   IN A       178.63.235.153
+blog                     IN A       178.63.3.169
+blog-piratenfreifunk       IN A       178.63.235.153
+blogtest                 IN A       178.63.235.148
+cemetry                  IN A       178.63.3.169
+dascamp                  IN A       178.63.235.153
+hauptstadtpiraten        IN A       178.63.235.153
+kalender                 IN A       178.63.235.152
+ldap                     IN A       178.63.235.154
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+mirror                   IN A       178.63.235.156
+mitmachdb                IN A       178.63.235.145
+multisite                IN A       178.63.235.153
+pirapay                  IN A       178.63.235.153
+piraten-charlottenburg-wilmersdorf       IN A       178.63.235.153
+piraten-friedrichshain-kreuzberg       IN A       178.63.235.153
+piraten.in-mandate       IN A       178.63.235.153
+piraten-lichtenberg       IN A       178.63.235.153
+piraten-marzahn-hellersdorf       IN A       178.63.235.153
+piraten-mitte            IN A       178.63.235.153
+piraten-neukoelln        IN A       178.63.235.153
+piraten-pankow           IN A       178.63.235.153
+piraten-reinickendorf       IN A       178.63.235.153
+piraten-spandau          IN A       178.63.235.153
+piraten-steglitz-zehlendorf       IN A       178.63.235.153
+piraten-tempelhof-schoeneberg       IN A       178.63.235.153
+piraten-treptow-koepenick       IN A       178.63.235.153
+reisebuero               IN A       178.63.235.153
+rsync                    IN A       178.63.3.169
+staging                  IN A       178.63.235.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"lqpp.de";"fertig";"06.01.15";"";"$TTL 3600
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2013030901   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    3600 )       ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       88.198.49.151
+*                        IN A       88.198.49.151
+br                       IN A       88.198.49.151
+support                  IN A       178.63.235.152
+test                     IN A       88.198.11.9
+*.test                   IN A       88.198.11.9
+www                      IN A       88.198.49.151
+@                        IN MX 10   support
+"
+"piratech.de";"fertig";"19.10.14";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2014030100   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.235.145
+*                        IN A       178.63.235.145
+ldap                     IN A       178.63.235.147
+lmvb                     IN A       217.6.72.237
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.235.145
+nodejs                   IN A       178.63.3.170
+p9a-adam                 IN A       192.168.22.41
+p9a-agorum               IN A       192.168.23.11
+p9a-alpha                IN A       192.168.23.2
+p9a-dms                  IN A       192.168.23.14
+p9a-drucker              IN A       192.168.23.10
+p9a-fb                   IN A       192.168.23.1
+p9a-fb2                  IN A       192.168.22.70
+p9a-freifunk             IN A       192.168.23.203
+p9a-friedrich            IN A       192.168.22.50
+p9a-javatest             IN A       192.168.23.12
+p9a-karl-theodor         IN A       192.168.23.200
+p9a-lawi                 IN A       192.168.23.8
+p9a-ldap                 IN A       192.168.105.1
+p9a-lqimage              IN A       192.168.23.6
+p9a-pirapay              IN A       192.168.23.7
+p9a-router               IN A       192.168.23.254
+p9a-schaeuble            IN A       192.168.23.85
+p9a-schavan              IN A       192.168.22.40
+p9a-sip-lgs-001          IN A       192.168.22.60
+p9a-sip-lgs-002          IN A       192.168.22.61
+p9a-starmoney            IN A       192.168.23.31
+p9a-vltool-ctl           IN A       192.168.105.9
+p9a-vltool-pub           IN A       192.168.105.5
+p9a-vltool-red           IN A       192.168.105.7
+static-78-47-156-13       IN A       78.47.156.13
+vltool                   IN A       178.63.235.151
+vpn                      IN A       178.63.235.159
+@                        IN MX 10   mail
+"
+"piraten-charlottenburg-wilmersdorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2014032100   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       85.214.240.232
+localhost                IN A       127.0.0.1
+mail                     IN A       85.214.240.232
+www                      IN A       85.214.240.232
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-friedrichshain-kreuzberg.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-lichtenberg.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-marzahn-hellersdorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-mitte.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-neukoelln.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-pankow.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010081300   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-reinickendorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-spandau.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-steglitz-zehlendorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-tempelhof-schoeneberg.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piraten-treptow-koepenick.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenmitte.de";"fertig";"28.08.14";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2011082800   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-charlottenburg-wilmersdorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2014032100   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       85.214.240.232
+localhost                IN A       127.0.0.1
+mail                     IN A       85.214.240.232
+www                      IN A       85.214.240.232
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-friedrichshain-kreuzberg.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-lichtenberg.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-marzahn-hellersdorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-mitte.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-neukoelln.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-pankow.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-reinickendorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-spandau.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-steglitz-zehlendorf.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-tempelhof-schoeneberg.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
+"piratenpartei-treptow-koepenick.de";"fertig";"29.05.15";"";"$TTL 86400
+@   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
+    2010052900   ; serial
+    14400        ; refresh
+    1800         ; retry
+    604800       ; expire
+    86400 )      ; minimum
+ 
+@                        IN NS      ns1.first-ns.de.
+@                        IN NS      robotns2.second-ns.de.
+@                        IN NS      robotns3.second-ns.com.
+ 
+@                        IN A       178.63.3.169
+localhost                IN A       127.0.0.1
+mail                     IN A       178.63.3.169
+www                      IN A       178.63.3.169
+ftp                      IN CNAME   www
+imap                     IN CNAME   www
+loopback                 IN CNAME   localhost
+pop                      IN CNAME   www
+relay                    IN CNAME   www
+smtp                     IN CNAME   www
+@                        IN MX 10   mail
+"
