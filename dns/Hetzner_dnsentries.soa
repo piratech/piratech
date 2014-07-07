@@ -172,7 +172,7 @@ www                      IN A       88.198.49.151
 "
 "piratech.de";"fertig";"19.10.14";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2014030100   ; serial
+    2014070700   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -210,6 +210,7 @@ p9a-schavan              IN A       192.168.22.40
 p9a-sip-lgs-001          IN A       192.168.22.60
 p9a-sip-lgs-002          IN A       192.168.22.61
 p9a-starmoney            IN A       192.168.23.31
+p9a-teampass             IN A       192.168.23.12
 p9a-vltool-ctl           IN A       192.168.105.9
 p9a-vltool-pub           IN A       192.168.105.5
 p9a-vltool-red           IN A       192.168.105.7
