@@ -1,5 +1,5 @@
 "Domain";"Status";"abgerechnet bis";"Primary nameserver";"Zonefile"
-"bundesgeschaeftsstelle.de";"fertig";"15.10.14";"";"$TTL 86400
+"bundesgeschaeftsstelle.de";"fertig";"15.10.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2010101500   ; serial
     14400        ; refresh
@@ -96,7 +96,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"landesgeschaeftsstelle.de";"fertig";"15.10.14";"";"$TTL 86400
+"landesgeschaeftsstelle.de";"fertig";"15.10.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2014050200   ; serial
     14400        ; refresh
@@ -170,7 +170,7 @@ test                     IN A       88.198.11.9
 www                      IN A       88.198.49.151
 @                        IN MX 10   support
 "
-"piratech.de";"fertig";"19.10.14";"";"$TTL 86400
+"piratech.de";"fertig";"19.10.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2014070700   ; serial
     14400        ; refresh
@@ -221,7 +221,7 @@ vpn                      IN A       178.63.235.159
 "
 "piraten-charlottenburg-wilmersdorf.de";"fertig";"29.05.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2014032100   ; serial
+    2014082600   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -231,10 +231,10 @@ vpn                      IN A       178.63.235.159
 @                        IN NS      robotns2.second-ns.de.
 @                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       85.214.240.232
+@                        IN A       81.169.173.176
 localhost                IN A       127.0.0.1
-mail                     IN A       85.214.240.232
-www                      IN A       85.214.240.232
+mail                     IN A       81.169.173.176
+www                      IN A       81.169.173.176
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
@@ -485,7 +485,7 @@ smtp                     IN CNAME   www
 "
 "piraten-treptow-koepenick.de";"fertig";"29.05.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2010052900   ; serial
+    2014120600   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -495,10 +495,10 @@ smtp                     IN CNAME   www
 @                        IN NS      robotns2.second-ns.de.
 @                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       178.63.3.169
+@                        IN A       178.63.235.153
 localhost                IN A       127.0.0.1
-mail                     IN A       178.63.3.169
-www                      IN A       178.63.3.169
+mail                     IN A       178.63.235.153
+www                      IN A       178.63.235.153
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
@@ -507,7 +507,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"piratenmitte.de";"fertig";"28.08.14";"";"$TTL 86400
+"piratenmitte.de";"fertig";"28.08.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2011082800   ; serial
     14400        ; refresh
@@ -533,7 +533,7 @@ smtp                     IN CNAME   www
 "
 "piratenpartei-charlottenburg-wilmersdorf.de";"fertig";"29.05.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2014032100   ; serial
+    2014090100   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -543,10 +543,10 @@ smtp                     IN CNAME   www
 @                        IN NS      robotns2.second-ns.de.
 @                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       85.214.240.232
+@                        IN A       81.169.173.176
 localhost                IN A       127.0.0.1
-mail                     IN A       85.214.240.232
-www                      IN A       85.214.240.232
+mail                     IN A       81.169.173.176
+www                      IN A       81.169.173.176
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
@@ -797,7 +797,7 @@ smtp                     IN CNAME   www
 "
 "piratenpartei-treptow-koepenick.de";"fertig";"29.05.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2010052900   ; serial
+    2014120600   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -807,10 +807,10 @@ smtp                     IN CNAME   www
 @                        IN NS      robotns2.second-ns.de.
 @                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       178.63.3.169
+@                        IN A       178.63.235.153
 localhost                IN A       127.0.0.1
-mail                     IN A       178.63.3.169
-www                      IN A       178.63.3.169
+mail                     IN A       178.63.235.153
+www                      IN A       178.63.235.153
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
