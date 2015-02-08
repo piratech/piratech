@@ -149,7 +149,7 @@ relay                    IN CNAME   www
 smtp                     IN CNAME   www
 @                        IN MX 10   mail
 "
-"lqpp.de";"fertig";"06.01.15";"";"$TTL 3600
+"lqpp.de";"fertig";"06.01.16";"";"$TTL 3600
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
     2013030901   ; serial
     14400        ; refresh
@@ -172,7 +172,7 @@ www                      IN A       88.198.49.151
 "
 "piratech.de";"fertig";"19.10.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2014070700   ; serial
+    2015020800   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -204,7 +204,7 @@ p9a-lawi                 IN A       192.168.23.8
 p9a-ldap                 IN A       192.168.105.1
 p9a-lqimage              IN A       192.168.23.6
 p9a-pirapay              IN A       192.168.23.7
-p9a-router               IN A       192.168.23.254
+p9a-router               IN A       192.168.23.1
 p9a-schaeuble            IN A       192.168.23.85
 p9a-schavan              IN A       192.168.22.40
 p9a-sip-lgs-001          IN A       192.168.22.60
@@ -341,7 +341,7 @@ smtp                     IN CNAME   www
 "
 "piraten-neukoelln.de";"fertig";"29.05.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2010052900   ; serial
+    2015012200   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -351,10 +351,10 @@ smtp                     IN CNAME   www
 @                        IN NS      robotns2.second-ns.de.
 @                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       178.63.3.169
+@                        IN A       95.143.172.79
 localhost                IN A       127.0.0.1
-mail                     IN A       178.63.3.169
-www                      IN A       178.63.3.169
+mail                     IN A       95.143.172.79
+www                      IN A       95.143.172.79
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
@@ -653,7 +653,7 @@ smtp                     IN CNAME   www
 "
 "piratenpartei-neukoelln.de";"fertig";"29.05.15";"";"$TTL 86400
 @   IN SOA ns1.first-ns.de. postmaster.robot.first-ns.de. (
-    2010052900   ; serial
+    2015012200   ; serial
     14400        ; refresh
     1800         ; retry
     604800       ; expire
@@ -663,10 +663,10 @@ smtp                     IN CNAME   www
 @                        IN NS      robotns2.second-ns.de.
 @                        IN NS      robotns3.second-ns.com.
  
-@                        IN A       178.63.3.169
+@                        IN A       95.143.172.79
 localhost                IN A       127.0.0.1
-mail                     IN A       178.63.3.169
-www                      IN A       178.63.3.169
+mail                     IN A       95.143.172.79
+www                      IN A       95.143.172.79
 ftp                      IN CNAME   www
 imap                     IN CNAME   www
 loopback                 IN CNAME   localhost
